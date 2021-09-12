@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description"
+        content="We have great pleasure in informing you that Department of Information Technology, Sikkim Manipal Institute of Technology is organizing First International..." />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- semantic-ui-link -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4ca1a98fd1.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>MY PAGE 2021</title>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Mycustom style sheet  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/stylegallery.css">
+
+    <style>
+        .title {
+            margin-bottom: 10px;
+            text-align: center;
+            width: 400px;
+            color: green;
+            border: solid black 2px;
+        }
+
+        input[type="button"] {
+            background-color: purple;
+            color: black;
+            border: solid black 2px;
+            width: 100%
+        }
+
+        input[type="text"] {
+            background-color: white;
+            border: solid black 2px;
+            width: 100%
+        }
+
+        .hero-image {
+            background-image: url("./assets/images/DSC_2737-01.jpeg");
+            background-color: #cccccc;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- SMIT LOGO  -->
+    <div class="container-fluid smit-logo">
+        <img class="smit-logo-image" src="./assets\images\smit_logo_small1_png.png" height="100px" width="5px"
+            alt="logo">
+    </div>
+    <!-- Navbar Section -->
+    <div class="navbar navbar-expand-lg navbar-bg-custom navbar-dark sticky-top">
+        <a class="navbar-brand" href="index.php">
+            <img class="brand-logo" src="./assets/images/SMIT_Latest logo.jpg" alt="SMIT-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsiblenavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#calculator">Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#table">Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#image-map">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Jscode">JavaScript</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="callofpapers">Call for
+                        Paper</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./docs/(ICICT) 2021 Brochure V1.png"> Download Brochure</a>
+                        <a class="dropdown-item" href="#submission"> Important Dates</a>
+                        <a class="dropdown-item" href="#thrust_areas"> Thrust area</a>
+                        <a class="dropdown-item" href="#registration"> Registration</a>
+                        <a class="dropdown-item" href="#registration_pay"> How to pay</a>
+                        <!-- <a class="dropdown-item" href="#call_for_paper"> Call for paper</a> -->
+                        <a class="dropdown-item" href="#how_to_submit_paper"> How to submit paper</a>
+                        <!-- <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfWNxvcRDh_H1ieB6XorE69jObWa_k9NfeN4uSiQ1Jj0t7oLg/viewform?usp=sf_link"> Upload Manuscript</a> -->
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="Committees">Committee</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#organizing_committee"> Organizing committee</a>
+                        <a class="dropdown-item" href="#smit_organizing_committee"> SMIT organizing committee</a>
+                        <a class="dropdown-item" href="#program_committee"> Program committee</a>
+                        <a class="dropdown-item" href="#advisory_committee"> Advisory committee</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="invited_talk">Invited
+                        Speech</a>
+                    <div class="dropdown-menu">
+                        <!-- <a class="dropdown-item" href="#invited_talk1"> Invited Talk-01</a> -->
+                        <!-- <a class="dropdown-item" href="#invite1"> Invited Talk-02</a> -->
+                        <a class="dropdown-item" href="#invite2"> Speaker-01</a>
+                        <a class="dropdown-item" href="#invite3"> Speaker-02</a>
+                        <a class="dropdown-item" href="#invite4"> Speaker-03</a>
+                        <a class="dropdown-item" href="#invite5"> Speaker-04</a>
+                        <a class="dropdown-item" href="#invite6"> Speaker-05</a>
+                        <!-- <a class="dropdown-item" href="./SMIT-CCB-SPEAKER/other.html"> Others</a> -->
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="invited_talk">
+                        Keynote Speech</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#key1"> Speaker-01</a>
+                        <a class="dropdown-item" href="#key2"> Speaker-02</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                        id="ConferenceProgram">Conference
+                        Program</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./docs/CCB2020ProgrammeFINAL.pdf"> List of Accepted Papers</a>
+                        <a class="dropdown-item" href="./docs/CCB2020ProgrammeFINAL.pdf"> Conference Program Details</a>
+                        <a class="dropdown-item" href="#gallery"> Gallery</a>
+                        <a class="dropdown-item" href="#contact"> Contact</a>
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+    <section id="carousel-image-section">
+        <div class="container-fluid" data-aos="zoom-in">
+
+            <div id="image" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="carousel-image" src="./assets\images\DSC_1772-01.jpg" alt="image2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-image" src="./assets/images/smit-hostle1.jpg" alt="image1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-image" src="./assets/images/DSC_1554-01.jpg" alt="image1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="carousel-image" src="./assets/images/DSC_1946-01.jpg" alt="image3">
+                    </div>
+                </div>
+                <ul class="carousel-indicators">
+                    <li data-target="#image" data-slide-to="0" class="active"></li>
+                    <li data-target="#image" data-slide-to="1"></li>
+                    <li data-target="#image" data-slide-to="2"></li>
+                    <li data-target="#image" data-slide-to="3"></li>
+                </ul>
+                <a class="carousel-control-prev" href="#image" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#image" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="jumbotron">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta nisi incidunt mollitia adipisci eveniet.
+            Corrupti animi, fugit iusto nostrum architecto repellendus, aliquam tempore sapiente dolores nulla, iste at
+            adipisci! Sed.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore labore quia adipisci consequuntur a
+            molestiae, magnam, ipsum perferendis, non cupiditate sapiente laudantium fugiat rem? Optio id nisi odio
+            delectus vel.</p>
+    </div>
+
+
+    <section id="hero-img">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 style="font-size:50px">I am Tushar Nayan</h1>
+                <h3>And I'm a Photographer</h3>
+                <button>Connect Me</button>
+            </div>
+        </div>
+    </section>
+    <section id="table">
+        <h1 style="text-align: center;">Tabel</h1>
+        <hr>
+        <section id="maincommittee">
+            <section id="organizing_committee" data-aos="fade-up">
+                <div class="container">
+                    <table class="border border-dark shadow p-3 mb-5 bg-white rounded" id="COMMITTEE">
+                        <tr>
+                            <th>ORGANIZING COMMITTEE</th>
+                        </tr>
+                        <hr style="color: #fff;">
+                        <tr>
+                            <th>Patron</th>
+                        </tr>
+                        <tr>
+                            <td>Lt. Gen. (Dr.) Rajan S Grewal, Hon'ble Vice Chancellor, Sikkim Manipal University,
+                                Gangtok, Sikkim,
+                                India</td>
+                        </tr>
+                        <tr>
+                            <th>ORGANIZING COMMITTEE</th>
+                        </tr>
+                        <tr>
+                            <td>Prof. (Dr.) Ashis Sharma, Director, SMIT, Sikkim, India</td>
+                        </tr>
+                        <tr>
+                            <th>Conference AdviserE</th>
+                        </tr>
+                        <tr>
+                            <td>Prof. (Dr.) Ajeya Jha, Associate Director (R&D), SMIT, Sikkim, India</td>
+                        </tr>
+                        <tr>
+                            <th>Organizing ChairE</th>
+                        </tr>
+                        <tr>
+                            <td>Prof. (Dr.) Hiren Kr. Dev Sarma, HoD, Department of Information Technology, SMIT</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </section>
+        </section>
+        <section style="padding: 10px; justify-content: center;" id="calculator">
+            <div class=title>My Calculator</div>
+            <table border="1">
+                <tr>
+                    <td colspan="5"><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" /> </td>
+                    <td><input type="button" value="2" /> </td>
+                    <td><input type="button" value="3" /> </td>
+                    <td><input type="button" value="/" /> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" /> </td>
+                    <td><input type="button" value="5" /> </td>
+                    <td><input type="button" value="6" /> </td>
+                    <td><input type="button" value="-" /> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" /> </td>
+                    <td><input type="button" value="8" /> </td>
+                    <td><input type="button" value="9" /> </td>
+                    <td><input type="button" value="+" /> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." /> </td>
+                    <td><input type="button" value="0" /> </td>
+                    <td><input type="button" value="="> </td>
+                    <td><input type="button" value="*" /> </td>
+                </tr>
+            </table>
+        </section>
+        <section id="image-map">
+            <h1>Map Tag</h1>
+            <img src="./assets/images/car_com.jpg" width="400" height="300" alt="car_computer" usemap="#test" />
+            <map name="test">
+                <area shape="rect" coords="0,0,209,299" href="#car" alt="car">
+                <area shape="circle" coords="229,153,,267" href="#computer" alt="comp">
+            </map>
+            coordinates:
+        </section>
+
+        <div id="coordinates">0</div>​
+        <script>
+            $(function () {
+                $(document).mousemove(function (e) {
+                    $('#coordinates').html('x: ' + e.pageX + ' y : ' + e.pageY);
+                });
+            });
+        </script>
+        <div id="Jscode" class="container">
+            <h1>JavaScript Code</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <p id="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laborum
+                            neque
+                            itaque quo quibusdam, rem amet illo sint, maiores praesentium odio animi exercitationem
+                            ipsam,
+                            soluta eaque delectus repudiandae voluptate eum..</p>
+                    </div>
+                </div>
+                <div class="btn-group btn-group-lg">
+                    <button class="btn btn-lg btn-danger" type="button" onclick="myFunctionRed()">Red</button>
+                    <button class="btn btn-lg btn-dark" type="button" onclick="myFunctionBlack()">Black</button>
+                    <button class="btn btn-lg btn-info" type="button" onclick="myFunctionBlue()">Blue</button>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <button class="btn btn-lg btn-success" type="button"
+                            onclick="document.getElementById('time').innerHTML = Date()">
+                            Get Date and Time</button>
+
+                        <div id="time" class="alert alert-success">
+                            <strong>Time! =</strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <script>
+            function myFunctionRed() {
+                document.getElementById("color").style.fontSize = "25px";
+                document.getElementById("color").style.height = "300px";
+                document.getElementById("color").style.width = "800px";
+                document.getElementById("color").style.color = "#52006A"
+                document.getElementById("color").style.backgroundColor = "#CD113B";
+            }
+            function myFunctionBlack() {
+                document.getElementById("color").style.fontSize = "25px";
+                document.getElementById("color").style.height = "300px";
+                document.getElementById("color").style.width = "800px";
+                document.getElementById("color").style.color = "#fff"
+                document.getElementById("color").style.backgroundColor = "#000";
+            }
+            function myFunctionBlue() {
+                document.getElementById("color").style.fontSize = "25px";
+                document.getElementById("color").style.height = "300px";
+                document.getElementById("color").style.width = "800px";
+                document.getElementById("color").style.color = "#fff"
+                document.getElementById("color").style.backgroundColor = "#001E6C";
+            }
+        </script>
+        <section id="car">
+            <div class="jumbotron">
+                <article>
+                    <h1>
+                        Car
+                    </h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reiciendis ex voluptas suscipit
+                    expedita
+                    tenetur earum esse dignissimos, ducimus ad sunt commodi a accusantium velit iste, molestias soluta
+                    perferendis quaerat!
+                </article>
+            </div>
+        </section>
+        <section id="computer">
+            <div class="jumbotron">
+                <article>
+                    <h1>Computer</h1>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quam saepe libero dolorum ab facere,
+                    facilis ipsum magnam aspernatur commodi quod obcaecati voluptatibus laudantium soluta rerum labore
+                    itaque quisquam iusto.
+                </article>
+            </div>
+
+        </section>
+
+        <section id="formdata">
+
+            <div class="container">
+                <h2>Form Validation</h2>
+                <p>In this example, we use <code>.was-validated</code> to indicate what's missing before submitting
+                    the form:</p>
+                <form action="/action_page.php" class="was-validated">
+                    <div class="form-group">
+                        <label for="uname">Username:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember" required> I agree on
+                            Terms and Conditions.
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </section>
+
+
+        <!-- contact -->
+        <section id="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="container-fluid">
+                <h1 class="contact-heading"> CONTACT US</h1>
+                <div class="row">
+                    <div class="col-md-7 col-custom">
+                        <address>
+                            <strong><em>Tushar Nayan</em> <br>
+                                Sector-4 / 76, Green Park, Bareilly </strong><br>
+                            Uttar Pradesh<br>
+                            Pin 243006 <br>
+                        </address>
+                        <p class="contact-number">
+                            Phone: +91-7398254590 <br>
+                            Mobile: +91-7398254590 <br>
+                            Email: tusharnayan10@gmail.com <br>
+                            Alt Email: tusharnayan2610@gmail.com
+                    </div>
+                    <div class="col-md-5 col-custom" data-aos="zoom-in">
+                        <a href="#">
+                            <img class="bitgen-image-logo" src="./assets/images/BrandLogo_Size.jpg" alt="my-logo">
+                        </a>
+                    </div>
+                </div>
+                <h3 class="contact-footer">
+                    <a target="_black" href="http://www.bitgen.in/">Website: http://www.bitgen.in/ <br></a>
+                    <br> <br>
+                    E-mail: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                        data-cfemail="b6dedfc4d3d8ddd2c5d7c4dbd7f6d1dbd7dfda98d5d9db">[email&#160;protected]</a> <br>
+                </h3>
+            </div>
+        </section>
+
+        <footer>
+            <div class="copyright" data-aos="fade-up">
+                <p> Designed and Developed by <a target="_black" href="https://github.com/tusharnayan10">Tushar
+                        Nayan</a> ©
+                    2021.
+                </p>
+            </div>
+        </footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/superfish/superfish.min.js"></script>
+<script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+</body>
+<script>
+    $('.alert').alert();
+</script>
+<script src="./assets/js/main.js"></script>
+
+</html>
