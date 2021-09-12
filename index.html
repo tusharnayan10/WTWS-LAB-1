@@ -119,15 +119,23 @@
 
     </div>
   </div>
-  <div class="container-fluid" data-aos="fade-up">
-    <div class="alert alert-warning alert-dismissible fade show">
-      <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <strong>Notice!</strong> Springer Nature accepted the proposal to publish the proceedings of ICICT-2021
-      (confirmation
-      received on 22/Sep/202)
-      in LNNS Series (Scopus Indexed)..
+<div class="container">
+  <div class="alert alert-success alert-dismissible" id="myAlert">
+    <button type="button" class="close">&times;</button>
+    <strong>Lab 2</strong> Click me to load Lab 2 work! <br>
+    <button type="button" class="btn btn-success" onclick="lab2()">WTWSLab-2</button>
     </div>
   </div>
+  <script>
+    $(document).ready(function () {
+      $(".close").click(function () {
+        $("#myAlert").alert("close");
+      });
+    });
+    function lab2() {
+      window.open("test.html");
+    }
+  </script>
   <!-- IMAGE CAROUSEL -->
   <section id="carousel-image-section">
     <div class="container-fluid" data-aos="zoom-in">
